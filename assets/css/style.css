@@ -1,7 +1,63 @@
-/*#questionarea {
-	display: none;
+
+body {
+	/*background-color: black;*/
+	width: 900px;
+	background-image: url(../images/film.jpg);
+	background-size: 1800px;
+	background-repeat: no-repeat;
+ }
+
+ #container {
+ 	width: 700px;
+ 	height: auto;
+ 	margin: 0 auto;
+ 	margin-left: 320px;
+	background-color: #dbdcde;
+	padding: 20px;
+ }
+
+#movie {
+	font-size: 60px;
+	text-align: center;
 }
 
-.show {
-	display: block;
-}*/
+ #questionarea {
+ 	font-family: 'Manuale', serif;
+ }
+
+ #startbutton {
+ 	width: 100px;
+ 	font-size: 40px;
+ 	height: auto;
+ 	background-color: #FF7972;
+ 	margin-left: 285px;
+ }
+
+ #display {
+ 	margin-left: 280px;
+ 	font-size: 50px;
+ }
+
+ #donebutton {
+	width: 110px;
+ 	font-size: 40px;
+ 	height: auto;
+ 	background-color: #FF7972;
+ 	margin-left: 285px;
+ }
+
+ #nextbutton {
+	width: 110px;
+ 	font-size: 40px;
+ 	height: auto;
+ 	background-color: #FF7972;
+ 	margin-left: 280px;
+ }
+
+.hidden {
+	visibility: hidden;
+}
+
+ .show {
+ 	visibility: visible;
+ }

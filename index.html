@@ -3,20 +3,22 @@
 <head>
 	<title>Trivia Game</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/javascript/game.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Manuale" rel="stylesheet">
 </head>
 <body>
-
+	<div id="container">
+		<h1 id="movie">Movie Trivia!!</h1>
 	<button id="startbutton">Start</button>
 
 		<div id="display">00:00</div>
 
 
 	<div id="questionpit">
+		<h2 id="timesup"></h2>
 		<h2 id="outcome"></h2>
-		<div id="questionarea" class="show">
+		<div id="questionarea" class="hidden">
 			<p class="question">1. Who played the female lead in the dystopian political thriller "V for Vendetta"?</p>
 			<ul class="answers">
 				<input type="radio" name="q1" value="a" id="q1a"><label for="q1a">Natalie Portman</label><br/>
@@ -51,7 +53,8 @@
 		</div>
 	</div>
 
-	<button id="donebutton">done</button>
-
+	<button id="donebutton">Done</button>
+	<button id="nextbutton" class="hidden">Retry</button>
+</div>
 </body>
 </html>
